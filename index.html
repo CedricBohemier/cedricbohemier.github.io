@@ -3,21 +3,29 @@
 <head>
   <title>Under Construction</title>
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+
+
+  <h1 id="title"> Cédric Bohémier </h1>
+  <div id="contents">
+    <a class="subpage" href="#intro"> WHO AM I </a>
+    <a class="subpage" href="./two.html"> PROJECTS </a>
+    <a class="subpage" href="./two.html"> CONTACT </a>
+  </div>
 </head>
 
-<body>
-  <h1> Please check in later </h1>
-  <form>
-    <label for="lvl">How excited are you on a scale 0-10</label>
-    <input type="number" step="1" name="lvl" id="lvl" min="0" max="10" required>
-    <input type="submit" value="Submit">
-  </form>
-  <br><br><br>
+<main>
+  <div class="section">
+    <h1 class="subtitle" id="intro">Welcome to my website!</h1>
+    <p class="paragraph">My name is Cedric Bohemier. I am currently learning HTML and CSS in hopes of building this website from scratch to showcase ongoing and completed projects I may have worked on. The goal is a sort of portfolio from which you can get an idea of what I am up to these days.</p>
+  </div>
+  <div class="section">
+     <h1 class="subtitle" id="guide">Quick Guide</h1>
+  </div>
 
-  <a href="./two.html">  <img src="./dog.jpg" width="320" height="312" id="dog"></a>
-
-  <label for="box">Give me feedback:</label>
-  <br>
-  <textarea id = "box">What do you think?</textarea>
-</body>
+  <div class="section">
+     <h1 class="subtitle" id="todo">To-Do List</h1>
+  </div>
+</main>
 </html>

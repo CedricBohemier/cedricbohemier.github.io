@@ -1,20 +1,60 @@
-* {
-	border: 1px solid red;
+*{
+
+	font-family: 'Roboto Mono', monospace;
 }
 
-body {
-	background: #141E30;
-	background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-	background: linear-gradient(-45deg, #35577D, #141E30);
-	color: white;
+head {
+	background: white;
 }
+
+
 
 h1 {
-	font-size: 36px;
-	color: white;
+	font-size: 18px;
+	color: black;
 	text-align: center;
+	padding:0px 20px;
 }
 
-#dog {
-	text-align: center;
+#title {
+	text-align:left;
+	font-size: 36px;
 }
+
+#contents{
+	padding-top:20px;
+	padding-bottom:20px;
+	min-width: 800px;
+}
+
+.section {
+	background: lightblue;
+	padding:20px 50px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.paragraph{
+}
+
+.subtitle {
+	font-size: 24px;
+}
+
+.subpage {
+	background:lightblue;
+	color: white;
+	font-size:20px;
+	padding:10px 20px;
+	margin: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.subpage:hover{
+	background:white;
+	color:lightblue;
+	border: 2px solid lightblue;
+	font-style: bold;
+}
+
