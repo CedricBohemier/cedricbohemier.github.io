@@ -4,7 +4,8 @@
 }
 
 html {
-	background: url("./circuit2.jpg") no-repeat center center fixed;
+	background: url("./circuit3.jpg") no-repeat center center fixed;
+	background-size: 120%;
 }
 
 head {
@@ -13,9 +14,7 @@ head {
 
 main {
 	margin-top: 50px;
-
 }
-
 
 
 h1 {
@@ -38,7 +37,7 @@ h1 {
 }
 
 .section {
-	background: lightblue;
+	background: rgba(173,216,230,0.5);
 	padding:20px 50px;
 	border-radius: 10px;
 	margin-bottom: 20px;
